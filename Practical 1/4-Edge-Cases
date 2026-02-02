@@ -1,0 +1,3 @@
+- Overflow : When stack size == capacity
+- Underflow : When stack is empty
+- Min retrieval on empty stack : Invalid
