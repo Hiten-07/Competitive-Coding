@@ -1,0 +1,9 @@
+5 pushed into stack
+3 pushed into stack
+7 pushed into stack
+2 pushed into stack
+Stack elements: 2 7 3 5
+Minimum element: 2
+2 popped from stack
+Minimum element: 3
+Top element: 7
