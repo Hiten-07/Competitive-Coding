@@ -1,0 +1,6 @@
+Write a program for implementing a MINSTACK which should support operations like push, pop, overflow, underflow, display 
+1. Construct a stack of N-capacity 
+2. Push elements 
+3. Pop elements 
+4. Top element 
+5. Retrieve the min element from the stack 
