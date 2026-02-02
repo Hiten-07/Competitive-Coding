@@ -1,0 +1,7 @@
+| Operation | Time Complexity |
+| --------- | --------------- |
+| Push      | O(1)            |
+| Pop       | O(1)            |
+| Top       | O(1)            |
+| Get Min   | O(1)            |
+| Display   | O(N)            |
