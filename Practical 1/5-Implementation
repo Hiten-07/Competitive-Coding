@@ -1,0 +1,113 @@
+#include <iostream>
+using namespace std;
+
+class MinStack {
+private:
+    int *stack;
+    int *minStack;
+    int top;
+    int capacity;
+
+public:
+    // 1. Construct stack of N capacity
+    MinStack(int n) {
+        capacity = n;
+        stack = new int[n];
+        minStack = new int[n];
+        top = -1;
+    }
+
+    // Check overflow
+    bool isFull() {
+        return top == capacity - 1;
+    }
+
+    // Check underflow
+    bool isEmpty() {
+        return top == -1;
+    }
+
+    // 2. Push element
+    void push(int x) {
+        if (isFull()) {
+            cout << "Stack Overflow\n";
+            return;
+        }
+
+        top++;
+        stack[top] = x;
+
+        if (top == 0)
+            minStack[top] = x;
+        else
+            minStack[top] = min(x, minStack[top - 1]);
+
+        cout << x << " pushed into stack\n";
+    }
+
+    // 3. Pop element
+    void pop() {
+        if (isEmpty()) {
+            cout << "Stack Underflow\n";
+            return;
+        }
+
+        cout << stack[top] << " popped from stack\n";
+        top--;
+    }
+
+    // 4. Top element
+    void peek() {
+        if (isEmpty()) {
+            cout << "Stack is empty\n";
+            return;
+        }
+        cout << "Top element: " << stack[top] << endl;
+    }
+
+    // 5. Retrieve minimum element
+    void getMin() {
+        if (isEmpty()) {
+            cout << "Stack is empty\n";
+            return;
+        }
+        cout << "Minimum element: " << minStack[top] << endl;
+    }
+
+    // Display stack
+    void display() {
+        if (isEmpty()) {
+            cout << "Stack is empty\n";
+            return;
+        }
+
+        cout << "Stack elements: ";
+        for (int i = top; i >= 0; i--) {
+            cout << stack[i] << " ";
+        }
+        cout << endl;
+    }
+};
+
+int main() {
+    int n;
+    cout << "Enter stack capacity: ";
+    cin >> n;
+
+    MinStack s(n);
+
+    s.push(5);
+    s.push(3);
+    s.push(7);
+    s.push(2);
+
+    s.display();
+    s.getMin();
+
+    s.pop();
+    s.getMin();
+
+    s.peek();
+
+    return 0;
+}
