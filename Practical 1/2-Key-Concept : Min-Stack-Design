@@ -1,0 +1,13 @@
+- To retrieve the minimum the element in O(1) time, we use :
+Two Stacks :
+1. Main Stack - stores actual values
+2. Min Stack - stores the minimum value corresponding to each state.
+
+How it works ?
+- While pushing :
+  - Push element to main stack
+  - Push min(current element, previous min) to min stack.
+- While popping :
+  - pop from both stack
+- Minimum element :
+  - Top of min stack
