@@ -1,0 +1,11 @@
+We need to implement a stack with fixed capacity N that supports :
+1. Push Element
+2. Pop Element
+3. Detect Overflow
+4. Detect Underflow
+5. Display stack elements
+6. Get top element
+7. Retrieve the minimum element in the stack at any time
+
+Important Constraint :
+Retrieving the minimum element should be efficient - ideally O(1) time.
