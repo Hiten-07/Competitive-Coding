@@ -1,0 +1,10 @@
+Consider an expression like:
+(5 + 3) * 2
+
+In Postfix (Reverse Polish) notation, this becomes:
+5 3 + 2 *
+
+Advantages of Postfix Expression :
+No need for parentheses
+No operator precedence handling
+Easy evaluation using stack
