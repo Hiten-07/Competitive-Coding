@@ -1,0 +1,11 @@
+Array: 4 5 2 25
+
+Element	Stack	Action
+4	      4	    Push
+5	      4	    5 > 4 → NGE(4)=5
+5	      5	    Push
+2	      5,2	  Push
+25	    5,2	  25 > 2 → NGE(2)=25
+	      5	    25 > 5 → NGE(5)=25
+	      25	  Push
+End	    25	  NGE(25) = -1
