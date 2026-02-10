@@ -1,0 +1,9 @@
+1. Create an empty stack
+2. Push the first element
+3. For each next element:
+While stack is not empty and current element > stack top:
+- Pop stack top
+- Current element is the NGE of the popped element
+- Push current element onto stack
+4. After traversal:
+- Remaining elements in stack have NGE = -1
