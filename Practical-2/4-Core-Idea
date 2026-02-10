@@ -1,0 +1,9 @@
+Rules:
+1. Scan expression from left to right
+2. If operand → push onto stack
+3. If operator
+- Pop two operands
+- Apply operator
+- Push result back to stack
+
+Final stack top = result
