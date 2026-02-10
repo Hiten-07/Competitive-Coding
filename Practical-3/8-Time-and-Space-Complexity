@@ -1,0 +1,5 @@
+Metric	Value
+Time Complexity	O(N)
+Space Complexity	O(N)
+
+Each element is pushed and popped only once.
