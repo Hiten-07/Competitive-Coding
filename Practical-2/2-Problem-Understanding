@@ -1,0 +1,8 @@
+In real-world systems such as:
+Compilers
+Expression evaluators
+Calculators
+Virtual machines
+Stacks are used to evaluate arithmetic expressions efficiently.
+
+We are asked to write a program that evaluates an expression using a stack, following the LIFO (Last In First Out) principle.
