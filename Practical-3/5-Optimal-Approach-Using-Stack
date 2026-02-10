@@ -1,0 +1,3 @@
+Key Insight :
+Use a stack to keep track of elements whose NGE is not found yet
+Traverse array from left to right
