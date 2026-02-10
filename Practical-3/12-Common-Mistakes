@@ -1,0 +1,4 @@
+Using nested loops (O(N²))
+Forgetting to process remaining stack elements
+Confusing next greater with maximum
+Incorrect stack conditions
