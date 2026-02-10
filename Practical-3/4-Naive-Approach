@@ -1,0 +1,10 @@
+Idea :
+For every element:
+Traverse all elements to its right
+Find the first greater element
+
+Complexity
+Time: O(N²) ❌
+Space: O(1)
+
+This approach is inefficient for large inputs.
