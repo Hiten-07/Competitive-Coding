@@ -1,0 +1,11 @@
+Postfix Expression:
+
+5 3 + 2 *
+Token	Stack Action	Stack Content
+5	Push	5
+3	Push	5, 3
++	Pop 3,5 → 8	8
+2	Push	8, 2
+*	Pop 2,8 → 16	16
+
+✅ Result = 16
