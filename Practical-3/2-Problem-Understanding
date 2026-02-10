@@ -1,0 +1,5 @@
+Given an array of N integers, for each element, we need to find the Next Greater Element (NGE).
+
+Definition :
+The Next Greater Element for an element arr[i] is the first element to the right of i that is greater than arr[i].
+If no such element exists, output -1.
