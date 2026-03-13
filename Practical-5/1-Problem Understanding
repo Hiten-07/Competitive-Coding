@@ -1,0 +1,10 @@
+We are given an infix expression like:
+A + B * C
+
+We must convert it into postfix notation:
+A B C * +
+
+using the Shunting Yard Algorithm where:
+Stack → stores operators
+Queue → stores postfix output
+Precedence rules must be followed
