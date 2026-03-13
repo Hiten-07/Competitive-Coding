@@ -1,0 +1,21 @@
+Steps:
+For each symbol in infix expression:
+
+Case 1: Operand
+→ Add to queue
+
+Case 2: Left parenthesis '('
+→ Push to stack
+
+Case 3: Right parenthesis ')'
+→ Pop from stack to queue until '(' found
+
+Case 4: Operator
+While:
+Stack not empty
+Top has higher or equal precedence
+Pop stack to queue.
+Then push current operator.
+
+Final Step:
+Pop remaining operators into queue.
