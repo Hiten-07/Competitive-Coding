@@ -1,0 +1,15 @@
+A Circular Queue is a queue where the last position connects back to the first position.
+Instead of wasting space like a normal queue, we reuse empty positions.
+
+Normal Queue Problem:
+
+[10 20 30 40 50]
+Dequeue twice →
+
+[ _ _ 30 40 50 ]
+Rear cannot move further → space wasted
+
+Circular Queue Solution:
+Use modulo:
+
+rear = (rear + 1) % k
