@@ -1,0 +1,5 @@
+This algorithm (used in compilers and calculators) helps to:
+
+Handle operator precedence
+Handle parentheses
+Convert expressions in O(N) time
