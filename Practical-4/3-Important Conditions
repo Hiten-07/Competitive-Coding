@@ -1,0 +1,4 @@
+Queue is Full when:
+(front == (rear + 1) % k)
+Queue is Empty when:
+front == -1
