@@ -1,0 +1,5 @@
+Input
+(A+B)*C
+
+Output
+Postfix Expression: AB+C*
