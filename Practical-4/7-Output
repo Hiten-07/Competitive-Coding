@@ -1,0 +1,11 @@
+10 inserted
+20 inserted
+30 inserted
+40 inserted
+
+Queue elements: 10 20 30 40
+
+10 removed
+
+Front element: 20
+Rear element: 40
