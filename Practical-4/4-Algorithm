@@ -1,0 +1,20 @@
+Enqueue(x)
+
+1. Check overflow
+2. If empty → front = rear = 0
+3. Else rear = (rear + 1) % k
+4. Insert element
+
+Dequeue()
+
+1. Check underflow
+2. If one element → reset queue
+3. Else:
+
+front = (front + 1) % k
+
+Front()
+Return element at front.
+
+Rear()
+Return element at rear.
