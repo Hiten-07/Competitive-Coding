@@ -1,0 +1,7 @@
+We need to implement a Circular Queue of size k supporting:
+Operations:
+
+Enqueue (insert element)
+Dequeue (remove element)
+Front (first element)
+Rear (last element)
