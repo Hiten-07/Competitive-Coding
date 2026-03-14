@@ -1,0 +1,8 @@
+Input:
+7
+12 5 20 20 15 8 12
+
+Output:
+Largest distinct elements are:
+20 15 12
+Product = 3600
