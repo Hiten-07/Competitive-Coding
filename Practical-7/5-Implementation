@@ -1,0 +1,110 @@
+#include <iostream>
+using namespace std;
+
+struct Node
+{
+    int data;
+    Node* next;
+};
+
+Node* createNode(int data)
+{
+    Node* newNode = new Node();
+    newNode->data = data;
+    newNode->next = NULL;
+
+    return newNode;
+}
+
+// Insert at end
+Node* insert(Node* head,int data)
+{
+    Node* newNode = createNode(data);
+
+    if(head==NULL)
+        return newNode;
+
+    Node* temp=head;
+
+    while(temp->next!=NULL)
+        temp=temp->next;
+
+    temp->next=newNode;
+
+    return head;
+}
+
+// Merge two sorted lists
+Node* mergeLists(Node* l1,Node* l2)
+{
+    Node dummy;
+    Node* tail=&dummy;
+
+    dummy.next=NULL;
+
+    while(l1!=NULL && l2!=NULL)
+    {
+        if(l1->data < l2->data)
+        {
+            tail->next=l1;
+            l1=l1->next;
+        }
+        else
+        {
+            tail->next=l2;
+            l2=l2->next;
+        }
+
+        tail=tail->next;
+    }
+
+    // Attach remaining nodes
+    if(l1!=NULL)
+        tail->next=l1;
+
+    if(l2!=NULL)
+        tail->next=l2;
+
+    return dummy.next;
+}
+
+// Display list
+void display(Node* head)
+{
+    Node* temp=head;
+
+    while(temp!=NULL)
+    {
+        cout<<temp->data<<" -> ";
+        temp=temp->next;
+    }
+
+    cout<<"NULL"<<endl;
+}
+
+int main()
+{
+    Node* list1=NULL;
+    Node* list2=NULL;
+
+    list1=insert(list1,1);
+    list1=insert(list1,3);
+    list1=insert(list1,5);
+
+    list2=insert(list2,2);
+    list2=insert(list2,4);
+    list2=insert(list2,6);
+
+    cout<<"List 1:\n";
+    display(list1);
+
+    cout<<"List 2:\n";
+    display(list2);
+
+    Node* merged=mergeLists(list1,list2);
+
+    cout<<"Merged List:\n";
+    display(merged);
+
+    return 0;
+}
