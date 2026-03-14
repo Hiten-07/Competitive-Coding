@@ -1,0 +1,12 @@
+Data Structures Used:
+Priority Queue (Max Heap) → to get largest elements
+Variable to track distinct values
+
+Steps:
+Insert all array elements into the priority queue.
+Extract the largest element → first
+Remove duplicates of first.
+Extract next distinct element → second
+Remove duplicates of second.
+Extract next distinct element → third
+Compute product.
