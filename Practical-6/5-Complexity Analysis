@@ -1,0 +1,5 @@
+| Operation         | Complexity     |
+| ----------------- | -------------- |
+| Insert N elements | O(N log N)     |
+| Extraction        | O(log N)       |
+| Total             | **O(N log N)** |
