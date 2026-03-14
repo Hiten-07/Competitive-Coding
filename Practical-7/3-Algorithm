@@ -1,0 +1,8 @@
+Steps:
+Create a dummy node (to simplify merging)
+
+Compare first nodes of both lists:
+Smaller node → attach to result
+Move pointer of that list
+Repeat until one list becomes NULL
+Attach remaining list
