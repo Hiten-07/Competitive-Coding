@@ -1,0 +1,15 @@
+Insert all elements into max heap
+
+first = extract max
+
+while top == first:
+    remove
+
+second = extract max
+
+while top == second:
+    remove
+
+third = extract max
+
+product = first * second * third
