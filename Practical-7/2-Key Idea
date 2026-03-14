@@ -1,0 +1,9 @@
+Since lists are already sorted:
+
+We compare nodes one by one:
+
+Pick the smaller node
+Move that list forward
+Continue until one list ends
+Attach remaining nodes
+This is similar to the merge step of Merge Sort.
