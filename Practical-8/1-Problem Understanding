@@ -1,0 +1,16 @@
+We are given two linked lists that merge at some point.
+
+Example:
+
+List 1:
+1 → 3 → 5 → 7 → 9
+                ↑
+List 2:   2 → 4
+
+After node 7, both lists share the same nodes.
+
+The merge point is:
+7
+
+⚠️ Important:
+Merge point means same memory node, not same value.
