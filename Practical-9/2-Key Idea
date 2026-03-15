@@ -1,0 +1,18 @@
+We swap nodes in pairs:
+
+For nodes:
+
+A → B → C → D
+
+After swap:
+
+B → A → D → C
+Pointer changes:
+
+If:
+
+prev → A → B → nextPair
+
+After swap:
+
+prev → B → A → nextPair
