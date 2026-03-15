@@ -1,0 +1,7 @@
+We must find the first common node by address, not by value.
+
+Efficient Strategy:
+Find length of both lists
+Move pointer of longer list ahead by length difference
+Move both pointers together
+First equal node → merge point
