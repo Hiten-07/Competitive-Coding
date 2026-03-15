@@ -1,0 +1,13 @@
+Steps:
+
+If list empty or one node → return
+
+Make second node as new head
+
+Traverse list in pairs:
+
+Swap current pair
+
+Connect previous pair
+
+Move to next pair
