@@ -1,0 +1,19 @@
+Steps:
+
+Calculate:
+
+length1
+length2
+
+Find difference:
+
+diff = |length1 − length2|
+
+Move longer list pointer by diff
+
+Move both together:
+
+while(ptr1 != ptr2)
+    move both
+
+Node where equal → merge point
