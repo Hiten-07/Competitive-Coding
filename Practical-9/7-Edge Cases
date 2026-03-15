@@ -1,0 +1,17 @@
+Handle:
+
+Empty list
+
+Single node
+
+Odd number of nodes
+
+Example:
+
+1 → 2 → 3 → 4 → 5
+
+Result:
+
+2 → 1 → 4 → 3 → 5
+
+(last node remains unchanged)
