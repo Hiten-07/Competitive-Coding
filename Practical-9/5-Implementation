@@ -1,0 +1,95 @@
+#include <iostream>
+using namespace std;
+
+struct Node
+{
+    int data;
+    Node* next;
+};
+
+Node* createNode(int data)
+{
+    Node* newNode = new Node();
+    newNode->data=data;
+    newNode->next=NULL;
+
+    return newNode;
+}
+
+Node* insert(Node* head,int data)
+{
+    Node* newNode=createNode(data);
+
+    if(head==NULL)
+        return newNode;
+
+    Node* temp=head;
+
+    while(temp->next!=NULL)
+        temp=temp->next;
+
+    temp->next=newNode;
+
+    return head;
+}
+
+Node* pairwiseSwap(Node* head)
+{
+    if(head==NULL || head->next==NULL)
+        return head;
+
+    Node* prev=NULL;
+    Node* curr=head;
+
+    head=head->next;
+
+    while(curr!=NULL && curr->next!=NULL)
+    {
+        Node* next=curr->next;
+        Node* nextPair=next->next;
+
+        next->next=curr;
+        curr->next=nextPair;
+
+        if(prev!=NULL)
+            prev->next=next;
+
+        prev=curr;
+        curr=nextPair;
+    }
+
+    return head;
+}
+
+void display(Node* head)
+{
+    while(head!=NULL)
+    {
+        cout<<head->data<<" -> ";
+        head=head->next;
+    }
+
+    cout<<"NULL"<<endl;
+}
+
+int main()
+{
+    Node* head=NULL;
+
+    head=insert(head,1);
+    head=insert(head,2);
+    head=insert(head,3);
+    head=insert(head,4);
+    head=insert(head,5);
+    head=insert(head,6);
+
+    cout<<"Original List:\n";
+    display(head);
+
+    head=pairwiseSwap(head);
+
+    cout<<"After Pairwise Swap:\n";
+    display(head);
+
+    return 0;
+}
