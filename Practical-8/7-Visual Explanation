@@ -1,0 +1,15 @@
+Before alignment:
+
+List1: 1→3→5→7→9   (length 5)
+List2: 2→4→7→9     (length 4)
+
+Move List1 pointer 1 step:
+
+3→5→7→9
+2→4→7→9
+
+Now move together:
+
+3 vs 2
+5 vs 4
+7 vs 7  ← merge point
