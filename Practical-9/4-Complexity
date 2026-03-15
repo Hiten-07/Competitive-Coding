@@ -1,0 +1,4 @@
+| Metric | Value |
+| ------ | ----- |
+| Time   | O(N)  |
+| Space  | O(1)  |
