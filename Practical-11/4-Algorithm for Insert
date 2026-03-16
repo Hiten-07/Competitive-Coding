@@ -1,0 +1,11 @@
+Steps:
+
+If root is NULL:
+Create new node
+
+If value < root:
+Insert in left subtree
+
+If value > root:
+Insert in right subtree
+Return root.
