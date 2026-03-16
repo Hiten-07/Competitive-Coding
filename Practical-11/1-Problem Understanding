@@ -1,0 +1,8 @@
+We must build a Binary Search Tree (BST) from given elements.
+
+BST Rules:
+
+For every node:
+
+Left subtree  → values smaller than node  
+Right subtree → values greater than node
