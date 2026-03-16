@@ -1,0 +1,6 @@
+Students often check only:
+
+node->left < node->data
+node->right > node->data
+
+This fails because BST requires global range checking, not just local comparison.
