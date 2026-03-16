@@ -1,0 +1,17 @@
+Key Idea:
+
+Each node must lie within a valid range:
+
+min < node < max
+
+Initially:
+
+(-∞ , +∞)
+
+For left subtree:
+
+(min , node->data)
+
+For right subtree:
+
+(node->data , max)
