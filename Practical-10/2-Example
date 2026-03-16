@@ -1,0 +1,22 @@
+Valid BST:
+        10
+       /  \
+      5    15
+     / \     \
+    2   7     20
+
+Result:
+
+Valid BST
+Invalid BST:
+        10
+       /  \
+      5    15
+          /
+         6
+
+Why invalid?
+
+Because:
+
+6 < 10 but placed in right subtree
