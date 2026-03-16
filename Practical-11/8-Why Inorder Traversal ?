@@ -1,0 +1,4 @@
+Because:
+
+Inorder traversal of BST = Sorted order
+This is often used to verify BST correctness.
