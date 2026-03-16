@@ -1,0 +1,5 @@
+To build a BST we need:
+
+Node creation
+Insert function
+Traversal (to verify tree)
