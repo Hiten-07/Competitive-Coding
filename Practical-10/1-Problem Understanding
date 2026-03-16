@@ -1,0 +1,7 @@
+We must check whether a given binary tree follows BST properties.
+
+BST Property:
+
+For every node:
+Left subtree values  <  Node value  <  Right subtree values
+And this must be true recursively for all nodes.
