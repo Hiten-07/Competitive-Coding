@@ -1,0 +1,5 @@
+| Case           | Complexity |
+| -------------- | ---------- |
+| Best           | O(log N)   |
+| Average        | O(log N)   |
+| Worst (skewed) | O(N)       |
