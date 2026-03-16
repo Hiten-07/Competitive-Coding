@@ -1,0 +1,12 @@
+isValid(node, min, max):
+
+if node == NULL:
+    return true
+
+if node <= min OR node >= max:
+    return false
+
+return:
+isValid(left, min, node)
+AND
+isValid(right, node, max)
