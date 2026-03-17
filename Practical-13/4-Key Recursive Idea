@@ -1,0 +1,2 @@
+Tree traversal is naturally recursive because:
+Each subtree is itself a tree.
