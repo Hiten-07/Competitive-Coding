@@ -1,0 +1,5 @@
+Students often:
+Forget base condition
+Mix traversal orders
+Print before recursion incorrectly
+Forget NULL checks
