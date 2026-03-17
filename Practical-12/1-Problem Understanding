@@ -1,0 +1,4 @@
+We must find the maximum depth of a binary tree.
+
+Definition:
+The depth (height) of a tree is the number of nodes along the longest path from root to a leaf.
