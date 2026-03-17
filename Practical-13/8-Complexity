@@ -1,0 +1,5 @@
+| Traversal | Time | Space          |
+| --------- | ---- | -------------- |
+| All       | O(N) | O(H) recursion |
+
+(N = nodes, H = height)
