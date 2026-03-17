@@ -1,0 +1,7 @@
+We must implement three tree traversals:
+
+| Traversal | Order               |
+| --------- | ------------------- |
+| Preorder  | Root → Left → Right |
+| Inorder   | Left → Root → Right |
+| Postorder | Left → Right → Root |
