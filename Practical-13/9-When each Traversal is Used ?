@@ -1,0 +1,16 @@
+Preorder
+Used for:
+Tree copying
+Expression trees
+Serialization
+
+Inorder
+Used for:
+BST gives sorted order
+Validating BST
+
+Postorder
+Used for:
+Tree deletion
+Expression evaluation
+Bottom-up calculations
