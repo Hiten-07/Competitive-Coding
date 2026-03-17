@@ -1,0 +1,14 @@
+Preorder
+Visit root
+Traverse left
+Traverse right
+
+Inorder
+Traverse left
+Visit root
+Traverse right
+
+Postorder
+Traverse left
+Traverse right
+Visit root
