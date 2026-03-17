@@ -1,0 +1,7 @@
+MAXDEPTH(root):
+
+if root == NULL:
+    return 0
+leftDepth = MAXDEPTH(root->left)
+rightDepth = MAXDEPTH(root->right)
+return 1 + max(leftDepth,rightDepth)
