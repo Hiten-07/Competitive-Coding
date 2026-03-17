@@ -1,0 +1,7 @@
+For any node:
+
+Depth = 1 + max(depth of left subtree, depth of right subtree)
+
+Base case:
+
+If node == NULL → depth = 0
