@@ -1,0 +1,5 @@
+Students often:
+Return max(left,right) instead of 1+max
+Forget base condition
+Confuse depth with number of edges
+Mix height vs depth definition
