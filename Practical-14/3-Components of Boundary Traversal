@@ -1,0 +1,10 @@
+We divide into 4 parts:
+
+1 Root
+20
+2 Left Boundary (excluding leaves)
+10 5
+3 Leaf Nodes
+2 15 50
+4 Right Boundary (bottom-up)
+40 30
