@@ -1,0 +1,5 @@
+Students often:
+Print leaf nodes twice
+Print right boundary in wrong order
+Include leaves in boundary
+Forget root case
