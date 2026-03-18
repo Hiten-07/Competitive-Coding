@@ -1,0 +1,117 @@
+#include <iostream>
+using namespace std;
+
+struct Node
+{
+    int data;
+    Node* left;
+    Node* right;
+};
+
+Node* newNode(int data)
+{
+    Node* node=new Node();
+
+    node->data=data;
+    node->left=NULL;
+    node->right=NULL;
+
+    return node;
+}
+
+bool isLeaf(Node* node)
+{
+    return (node->left==NULL && node->right==NULL);
+}
+
+void leftBoundary(Node* root)
+{
+    Node* curr=root->left;
+
+    while(curr)
+    {
+        if(!isLeaf(curr))
+            cout<<curr->data<<" ";
+
+        if(curr->left)
+            curr=curr->left;
+        else
+            curr=curr->right;
+    }
+}
+
+void leafNodes(Node* root)
+{
+    if(root==NULL)
+        return;
+
+    if(isLeaf(root))
+    {
+        cout<<root->data<<" ";
+        return;
+    }
+
+    leafNodes(root->left);
+    leafNodes(root->right);
+}
+
+void rightBoundary(Node* root)
+{
+    Node* curr=root->right;
+
+    int temp[100];
+    int i=0;
+
+    while(curr)
+    {
+        if(!isLeaf(curr))
+        {
+            temp[i]=curr->data;
+            i++;
+        }
+
+        if(curr->right)
+            curr=curr->right;
+        else
+            curr=curr->left;
+    }
+
+    for(int j=i-1;j>=0;j--)
+        cout<<temp[j]<<" ";
+}
+
+void boundaryTraversal(Node* root)
+{
+    if(root==NULL)
+        return;
+
+    cout<<root->data<<" ";
+
+    leftBoundary(root);
+
+    leafNodes(root);
+
+    rightBoundary(root);
+}
+
+int main()
+{
+    Node* root=newNode(20);
+
+    root->left=newNode(10);
+    root->right=newNode(30);
+
+    root->left->left=newNode(5);
+    root->left->right=newNode(15);
+
+    root->left->left->left=newNode(2);
+
+    root->right->right=newNode(40);
+    root->right->right->right=newNode(50);
+
+    cout<<"Boundary Traversal:\n";
+
+    boundaryTraversal(root);
+
+    return 0;
+}
