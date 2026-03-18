@@ -1,0 +1,9 @@
+Boundary Traversal means printing the nodes on the boundary of the tree in this order:
+
+Order:
+Root → Left Boundary → Leaf Nodes → Right Boundary (reverse)
+
+⚠️ Important rules:
+Root printed once
+Leaf nodes printed once
+Right boundary printed bottom-up
