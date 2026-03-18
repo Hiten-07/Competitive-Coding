@@ -1,0 +1,17 @@
+If tree is BST, we can do it faster:
+
+Key BST property:
+
+If:
+
+n1 < root AND n2 < root
+→ go left
+
+n1 > root AND n2 > root
+→ go right
+
+Otherwise → root is LCA
+BST Complexity:
+Time	O(H)
+
+Better than O(N).
