@@ -1,0 +1,21 @@
+Logic:
+
+For any node:
+
+If:
+
+node == n1 OR node == n2
+
+→ return node
+
+Recursively search:
+
+left subtree
+right subtree
+
+Cases:
+
+Left	Right	Result
+Found	Found	Current node is LCA
+Found	NULL	Return left
+NULL	Found	Return right
