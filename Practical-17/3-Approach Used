@@ -1,0 +1,6 @@
+We use:
+Modulo hash function
+Chaining using linked list
+
+Structure:
+Hash Table → Array of linked lists
