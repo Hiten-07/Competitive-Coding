@@ -1,0 +1,6 @@
+Insert:
+index = key % size
+Insert at hash[index]
+Search:
+index = key % size
+Traverse list to find key
