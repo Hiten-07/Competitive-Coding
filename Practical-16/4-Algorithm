@@ -1,0 +1,11 @@
+isMirror(t1,t2):
+If both NULL → true
+
+If one NULL → false
+
+If values different → false
+
+Return:
+isMirror(t1->left , t2->right)
+AND
+isMirror(t1->right , t2->left)
