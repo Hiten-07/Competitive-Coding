@@ -1,0 +1,5 @@
+Students often:
+Forget collision handling
+Use poor hash function
+Forget initialization
+Ignore duplicate keys
