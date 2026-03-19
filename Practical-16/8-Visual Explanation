@@ -1,0 +1,15 @@
+Compare:
+
+Tree1 left  ↔ Tree2 right
+Tree1 right ↔ Tree2 left
+
+Step comparison:
+
+1 == 1 ✓
+
+2 == 2 ✓
+3 == 3 ✓
+
+Result:
+
+Mirror
