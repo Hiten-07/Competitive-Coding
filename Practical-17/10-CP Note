@@ -1,0 +1,9 @@
+In contests we usually use:
+unordered_map<int,int>
+
+Example:
+unordered_map<int,int> mp;
+mp[10]=100;
+cout<<mp[10];
+
+(This is STL hash table.)
