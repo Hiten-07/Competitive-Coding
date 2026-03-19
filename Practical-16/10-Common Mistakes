@@ -1,0 +1,6 @@
+Students often:
+
+Compare left with left instead of left with right
+Forget NULL checks
+Only compare root values
+Ignore structure
