@@ -1,0 +1,7 @@
+For nodes t1 and t2:
+They are mirror if:
+t1->data == t2->data
+AND
+t1->left is mirror of t2->right
+AND
+t1->right is mirror of t2->left
