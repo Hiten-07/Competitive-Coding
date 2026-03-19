@@ -1,0 +1,4 @@
+Two trees are called mirror trees if:
+Root values are same
+Left subtree of Tree-1 = Mirror of right subtree of Tree-2
+Right subtree of Tree-1 = Mirror of left subtree of Tree-2
