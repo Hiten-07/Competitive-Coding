@@ -1,0 +1,16 @@
+Hash Function
+A function that converts a key into an index:
+
+Example:
+index = key % table_size
+Hash Table
+
+An array where:
+Index comes from hash function
+Value stored at that index
+Collision
+When two keys map to same index.
+
+Solution:
+Chaining (use linked list) ✔ (used here)
+Open addressing
