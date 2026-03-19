@@ -1,0 +1,6 @@
+We must:
+
+Create a hash function
+Store key-value pairs
+Retrieve values using keys
+Handle collisions (basic method)
