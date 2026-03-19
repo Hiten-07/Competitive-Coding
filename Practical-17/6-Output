@@ -1,0 +1,5 @@
+Index 0: (20,200) -> (10,100) -> NULL
+Index 5: (25,250) -> (15,150) -> NULL
+
+Key found. Value = 150
+Key not found
