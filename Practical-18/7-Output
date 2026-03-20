@@ -1,0 +1,15 @@
+Hash Table:
+
+Index 0: (20,200) -> (10,100) -> NULL
+Index 5: (25,250) -> (15,150) -> NULL
+
+Search key 15:
+Key found. Value = 150
+
+Delete key 20:
+Key deleted
+
+After deletion:
+
+Index 0: (10,100) -> NULL
+Index 5: (25,250) -> (15,150) -> NULL
