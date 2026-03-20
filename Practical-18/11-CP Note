@@ -1,0 +1,8 @@
+In contests, we usually use:
+
+unordered_map<int,int> mp;
+mp[key] = value;
+mp.erase(key);
+mp.find(key);
+
+But implementing manually is important for understanding.
