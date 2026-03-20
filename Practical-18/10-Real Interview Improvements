@@ -1,0 +1,11 @@
+Better implementations include:
+
+Rehashing
+
+Dynamic resizing
+
+Load factor control
+
+Using vectors instead of lists
+
+Generic templates
