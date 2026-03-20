@@ -1,0 +1,3 @@
+Simple hash function:
+
+index = key % table_size
