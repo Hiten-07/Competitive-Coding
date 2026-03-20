@@ -1,0 +1,129 @@
+#include <iostream>
+using namespace std;
+
+const int SIZE = 10;
+
+struct Node
+{
+    int key;
+    int value;
+    Node* next;
+};
+
+Node* hashTable[SIZE];
+
+// Hash function
+int hashFunction(int key)
+{
+    return key % SIZE;
+}
+
+// Insert operation
+void insert(int key,int value)
+{
+    int index = hashFunction(key);
+
+    Node* newNode = new Node();
+
+    newNode->key=key;
+    newNode->value=value;
+
+    newNode->next=hashTable[index];
+    hashTable[index]=newNode;
+}
+
+// Search operation
+void search(int key)
+{
+    int index = hashFunction(key);
+
+    Node* temp = hashTable[index];
+
+    while(temp)
+    {
+        if(temp->key==key)
+        {
+            cout<<"Key found. Value = "<<temp->value<<endl;
+            return;
+        }
+
+        temp=temp->next;
+    }
+
+    cout<<"Key not found"<<endl;
+}
+
+// Delete operation
+void deleteKey(int key)
+{
+    int index = hashFunction(key);
+
+    Node* temp = hashTable[index];
+    Node* prev = NULL;
+
+    while(temp)
+    {
+        if(temp->key==key)
+        {
+            if(prev==NULL)
+                hashTable[index]=temp->next;
+            else
+                prev->next=temp->next;
+
+            delete temp;
+
+            cout<<"Key deleted"<<endl;
+            return;
+        }
+
+        prev=temp;
+        temp=temp->next;
+    }
+
+    cout<<"Key not found"<<endl;
+}
+
+// Display table
+void display()
+{
+    for(int i=0;i<SIZE;i++)
+    {
+        cout<<"Index "<<i<<": ";
+
+        Node* temp=hashTable[i];
+
+        while(temp)
+        {
+            cout<<"("<<temp->key<<","<<temp->value<<") -> ";
+            temp=temp->next;
+        }
+
+        cout<<"NULL"<<endl;
+    }
+}
+
+int main()
+{
+    // Initialize table
+    for(int i=0;i<SIZE;i++)
+        hashTable[i]=NULL;
+
+    insert(10,100);
+    insert(20,200);
+    insert(15,150);
+    insert(25,250);
+
+    cout<<"Hash Table:\n";
+    display();
+
+    cout<<"\nSearch key 15:\n";
+    search(15);
+
+    cout<<"\nDelete key 20:\n";
+    deleteKey(20);
+
+    cout<<"\nAfter deletion:\n";
+    display();
+
+    return 0;
+}
