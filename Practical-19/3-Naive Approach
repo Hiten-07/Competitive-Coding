@@ -1,0 +1,9 @@
+Check all pairs:
+
+for i:
+   for j:
+      check sum
+Complexity:
+O(N²) ❌
+
+Too slow.
