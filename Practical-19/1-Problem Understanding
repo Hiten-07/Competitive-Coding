@@ -1,0 +1,31 @@
+Given:
+
+An array of integers
+
+A target sum
+
+Find two indices such that:
+
+𝑎
+𝑟
+𝑟
+[
+𝑖
+]
++
+𝑎
+𝑟
+𝑟
+[
+𝑗
+]
+=
+𝑡
+𝑎
+𝑟
+𝑔
+𝑒
+𝑡
+arr[i]+arr[j]=target
+
+Return the indices (or values).
