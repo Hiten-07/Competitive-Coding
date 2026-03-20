@@ -1,0 +1,11 @@
+Steps:
+
+For each element:
+
+complement = target - arr[i]
+
+If complement exists in map:
+    solution found
+
+Else:
+    store arr[i] in map
