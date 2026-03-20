@@ -1,0 +1,5 @@
+| Operation | Average | Worst |
+| --------- | ------- | ----- |
+| Insert    | O(1)    | O(N)  |
+| Search    | O(1)    | O(N)  |
+| Delete    | O(1)    | O(N)  |
