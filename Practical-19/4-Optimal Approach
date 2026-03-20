@@ -1,0 +1,11 @@
+Key Idea:
+
+For each element:
+
+Instead of searching:
+
+target - arr[i]
+
+Store previous numbers in hashmap.
+
+Check if needed number already exists.
