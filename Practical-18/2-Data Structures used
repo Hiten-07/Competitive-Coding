@@ -1,0 +1,8 @@
+We use:
+
+Node structure:
+key
+value
+next pointer
+Hash Table:
+Array of Node pointers
