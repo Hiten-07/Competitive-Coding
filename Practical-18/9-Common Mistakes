@@ -1,0 +1,9 @@
+Students often:
+
+Forget prev pointer in deletion
+
+Memory leaks
+
+Not initializing table
+
+Incorrect collision handling
