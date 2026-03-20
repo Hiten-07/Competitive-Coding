@@ -1,0 +1,7 @@
+Input:
+4
+2 7 11 15
+9
+Output:
+Pair found at indices: 0 and 1
+Values: 2 + 7 = 9
