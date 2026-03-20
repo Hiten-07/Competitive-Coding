@@ -1,0 +1,12 @@
+We must implement a Hash Table where:
+
+Collision Handling:
+
+Use Separate Chaining:
+
+Each index stores a linked list
+
+Example:
+
+Index 5:
+(15,100) → (25,200)
