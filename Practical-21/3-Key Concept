@@ -1,0 +1,14 @@
+We use:
+
+Min Priority Queue (Min Heap)
+
+Always pick 2 smallest frequencies.
+
+Tree Construction:
+
+Steps:
+
+Take two minimum nodes
+Create new node with sum
+Insert back
+Repeat until one node remains
