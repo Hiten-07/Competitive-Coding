@@ -1,0 +1,16 @@
+Insert:
+
+cat
+car
+dog
+
+After delete "cat":
+
+Remaining:
+
+car
+dog
+
+Trie still keeps shared prefix:
+
+c → a → r
