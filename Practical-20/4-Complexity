@@ -1,0 +1,5 @@
+| Operation | Complexity |
+| --------- | ---------- |
+| Insert    | O(L)       |
+| Search    | O(L)       |
+| Delete    | O(L)       |
