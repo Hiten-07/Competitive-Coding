@@ -1,0 +1,21 @@
+Given characters:
+
+Character	Frequency
+a	5
+b	9
+c	12
+d	13
+e	16
+f	45
+
+Huffman codes might be:
+
+Character	Code
+f	0
+c	100
+d	101
+a	1100
+b	1101
+e	111
+
+(Note: Codes may vary but length property remains optimal.)
