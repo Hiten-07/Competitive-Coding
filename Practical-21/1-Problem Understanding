@@ -1,0 +1,11 @@
+Huffman Coding is a compression algorithm used to reduce data size.
+
+Idea:
+Characters with higher frequency → shorter codes
+Characters with lower frequency → longer codes
+
+Uses:
+
+File compression (ZIP)
+Image compression (JPEG)
+Audio compression (MP3)
