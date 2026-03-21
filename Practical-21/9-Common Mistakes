@@ -1,0 +1,6 @@
+Students often:
+
+Use max heap instead of min heap
+Forget internal node marker
+Wrong tree traversal
+Incorrect comparator
