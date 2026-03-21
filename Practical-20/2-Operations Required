@@ -1,0 +1,11 @@
+Insert(word)
+
+Add characters one by one.
+
+Search(word)
+
+Check if full word exists.
+
+Delete(word)
+
+Remove word safely without affecting others.
