@@ -1,0 +1,4 @@
+Each node stores:
+
+children[26]  → pointers
+isEnd         → marks end of word
