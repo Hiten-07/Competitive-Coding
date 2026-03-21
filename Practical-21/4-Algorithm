@@ -1,0 +1,14 @@
+Steps:
+
+1 Insert all characters into min heap
+
+2 While heap size > 1:
+
+left = extract min
+right = extract min
+
+newNode.freq = left.freq + right.freq
+
+Insert newNode
+
+3 Traverse tree to generate codes.
