@@ -1,0 +1,25 @@
+A Trie is a tree used to store strings where:
+
+Each node represents:
+
+A character
+
+Path from root to node:
+
+Forms a word prefix
+
+Example words:
+
+cat
+car
+dog
+
+Trie structure:
+
+        root
+       /    \
+      c      d
+      |      |
+      a      o
+     / \      |
+    t   r     g
