@@ -1,0 +1,5 @@
+| Operation     | Complexity |
+| ------------- | ---------- |
+| Build Heap    | O(N)       |
+| Huffman Build | O(N log N) |
+| Total         | O(N log N) |
