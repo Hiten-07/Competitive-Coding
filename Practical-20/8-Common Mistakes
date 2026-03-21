@@ -1,0 +1,6 @@
+Students often:
+
+Delete shared prefix nodes
+Forget end marker
+Delete nodes prematurely
+Forget child existence check
