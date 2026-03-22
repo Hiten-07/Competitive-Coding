@@ -1,0 +1,31 @@
+#include <iostream>
+#include <set>
+using namespace std;
+
+int distinctSubstring(string s)
+{
+    set<string> st;
+
+    for(int i = 0; i < s.length(); i++)
+    {
+        string sub = "";
+
+        for(int j = i; j < s.length(); j++)
+        {
+            sub += s[j];
+            st.insert(sub);
+        }
+    }
+
+    return st.size();
+}
+
+int main()
+{
+    string s = "ababa";
+
+    cout<<"Distinct substrings = "
+        <<distinctSubstring(s);
+
+    return 0;
+}
