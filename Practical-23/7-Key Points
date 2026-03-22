@@ -1,0 +1,4 @@
+✔ Each word ends at a node marked isEnd
+✔ Counting words = counting end markers
+✔ DFS traversal required
+✔ Duplicate insertions should be handled carefully
