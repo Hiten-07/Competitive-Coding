@@ -1,0 +1,14 @@
+Idea:
+Every substring can be generated using two loops.
+First loop selects starting index.
+Second loop selects ending index.
+Store each substring in a set to automatically remove duplicates.
+Return the size of the set.
+
+Steps:
+Create a set to store substrings.
+Run loop from i = 0 to n-1
+Run inner loop from j = i to n-1
+Keep adding characters to form substring.
+Insert substring into set.
+Return set size.
