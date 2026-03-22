@@ -1,0 +1,9 @@
+Idea:
+Traverse the Trie.
+Count nodes where isEndOfWord = true.
+Use recursion (DFS traversal).
+Steps:
+Start from root.
+If node marks end of word → increment count.
+Recursively check all children.
+Return total count.
