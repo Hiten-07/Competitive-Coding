@@ -1,0 +1,20 @@
+A Trie (Prefix Tree) is a tree data structure used to store strings where each node represents a character.
+
+We need to find how many complete words are stored in the Trie.
+
+A word is considered complete if it is marked as an end of word node (isEndOfWord = true).
+
+Example:
+
+If Trie contains:
+
+cat
+car
+dog
+do
+
+Number of words:
+
+4
+
+Because there are 4 end-of-word markers.
