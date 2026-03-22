@@ -1,0 +1,12 @@
+Start
+Create a set substrings
+
+For i from 0 to n-1
+    Create empty string sub
+
+    For j from i to n-1
+        Add s[j] to sub
+        Insert sub into set
+
+Return size of set
+End
