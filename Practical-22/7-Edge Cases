@@ -1,0 +1,4 @@
+Empty string → 0 substrings
+Single character → 1 substring
+All same characters ("aaa") → fewer distinct substrings
+All unique characters ("abc") → maximum substrings
