@@ -1,0 +1,12 @@
+Insertion:
+O(L)
+
+(L = length of word)
+
+Counting:
+
+We visit every node once:
+
+O(N)
+
+(N = number of nodes)
