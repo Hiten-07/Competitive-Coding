@@ -1,0 +1,10 @@
+Idea:
+
+Instead of storing strings, store characters in a Trie.
+
+Every new node represents a new substring.
+Count new nodes created.
+Time Complexity:
+O(n²)
+Space Complexity:
+O(n²)
