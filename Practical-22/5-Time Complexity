@@ -1,0 +1,17 @@
+Loop analysis:
+Outer loop runs n times
+Inner loop runs n times
+Substring creation takes O(n)
+
+Total complexity:
+
+O(n³)
+Space Complexity:
+
+Set stores up to:
+
+O(n²) substrings
+
+So space complexity:
+
+O(n²)
