@@ -1,0 +1,13 @@
+countWords(node)
+    if node is NULL
+        return 0
+
+    count = 0
+
+    if node is end of word
+        count++
+
+    for all children
+        count += countWords(child)
+
+return count
