@@ -1,0 +1,25 @@
+Given a string S of length N, we need to find the number of distinct substrings present in the string.
+
+A substring is a contiguous sequence of characters within a string.
+
+Example:
+
+Input:
+
+S = "ababa"
+
+Substrings:
+
+a, b, a, b, a  
+ab, ba, ab, ba  
+aba, bab, aba  
+abab, baba  
+ababa
+
+Distinct substrings:
+
+a, b, ab, ba, aba, bab, abab, baba, ababa
+
+Output:
+
+9
