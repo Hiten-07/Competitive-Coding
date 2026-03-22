@@ -1,0 +1,10 @@
+Trie storage:
+
+O(ALPHABET_SIZE × N × L)
+≈ O(N×L)
+
+Recursive stack:
+
+O(H)
+
+(H = height of Trie)
