@@ -1,0 +1,5 @@
+Queue stores nodes:
+
+O(N)
+
+Worst case (last level nodes).
