@@ -1,0 +1,8 @@
+✔ Uses Queue data structure
+✔ Also called BFS traversal
+✔ Visits nodes level by level
+✔ Used in:
+
+Shortest path problems
+Tree views (left/right/top)
+Minimum depth problems
