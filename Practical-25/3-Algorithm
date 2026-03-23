@@ -1,0 +1,19 @@
+LevelOrder(root)
+
+If root == NULL
+    return
+
+Create queue Q
+Insert root into Q
+
+While Q not empty
+    node = Q.front()
+    Remove node
+
+    Print node data
+
+    If left child exists
+        Insert into Q
+
+    If right child exists
+        Insert into Q
