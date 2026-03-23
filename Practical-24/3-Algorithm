@@ -1,0 +1,19 @@
+LeftView(root)
+
+If root is NULL
+    return
+
+Create queue
+Insert root
+
+While queue not empty
+    n = queue size
+
+    For i = 1 to n
+        node = dequeue
+
+        If i == 1
+            print node data
+
+        If left exists → enqueue
+        If right exists → enqueue
