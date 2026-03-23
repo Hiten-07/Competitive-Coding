@@ -1,0 +1,20 @@
+The left view of a binary tree contains the nodes that are visible when the tree is viewed from the left side.
+
+In simple terms:
+
+At every level of the tree, print the first node.
+Example:
+
+Binary Tree:
+
+        1
+      /   \
+     2     3
+    / \     \
+   4   5     6
+
+Left View:
+
+1 2 4
+
+Because these nodes are visible from the left side.
