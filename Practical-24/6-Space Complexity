@@ -1,0 +1,5 @@
+Queue stores nodes of one level:
+
+O(N)
+
+Worst case (complete tree).
