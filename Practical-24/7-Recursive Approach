@@ -1,0 +1,9 @@
+Use preorder traversal:
+
+Visit left before right.
+Print first node of each level.
+
+Condition:
+
+if(level > maxLevelVisited)
+    print node
