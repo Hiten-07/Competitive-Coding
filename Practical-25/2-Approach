@@ -1,0 +1,12 @@
+Idea:
+
+We use a Queue because queue follows FIFO (First In First Out) which matches level order traversal.
+
+Steps:
+Create an empty queue.
+Insert root into queue.
+While queue is not empty:
+Remove front node.
+Print it.
+Insert its left child.
+Insert its right child.
