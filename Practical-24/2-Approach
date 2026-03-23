@@ -1,0 +1,13 @@
+Idea (Level Order Traversal):
+Perform Level Order Traversal (BFS).
+At each level, print the first node.
+Alternative approach:
+Use recursion and track the maximum level visited.
+Steps (BFS Method):
+Use a queue.
+Insert root node.
+For each level:
+Get number of nodes at that level.
+Print the first node.
+Add left and right children.
+Repeat until queue is empty.
