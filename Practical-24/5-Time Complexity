@@ -1,0 +1,5 @@
+Each node is visited once:
+
+O(N)
+
+(N = number of nodes)
